@@ -1,0 +1,56 @@
+
+
+
+p {
+
+
+  color: black;
+
+  font-size: 1.8em;
+
+  width: 500px;
+    border: 5px
+    padding: 50px;
+    margin: 20px;
+    margin-top: 2000;
+    margin-bottom: 100;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 300px;
+
+
+
+
+}
+
+a
+{
+  font-size: 1.5em;
+
+  text-align: justify;
+  text-align-last: center;
+  display: block;
+  position: relative;
+  top: 500px;
+}
+
+a.right{
+  float:right;
+
+}
+img.right {
+  width: 300px;
+  clear: right;
+  margin: 10px;
+
+    float:right;
+}
+
+img.left {
+  width: 340px;
+  clear: left;
+  margin: 10px;
+
+    float:left;
+}
