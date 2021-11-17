@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 255, 0);
+  background(255, 0,255);
   if (checkboxRect.checked) {
     rectMode(CENTER);
     rect(100, 250, 150, 150);
