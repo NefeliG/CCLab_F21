@@ -13,6 +13,13 @@ function setup() {
 function draw() {
   background(26, 82, 118);
 
+  push();
+ fill(255);
+ textAlign(CENTER);
+ textSize(45);
+ text("Penguin Family", width/2,50);
+pop();
+
   translate(x, height/2);
   x = x - 1;
   if (x < 0) {
@@ -23,7 +30,13 @@ function draw() {
   translate(10,-120);
   scale(0.5);
   if (checkbox1.checked) {
-    drawPengy(); //baby
+    drawPengy();
+    push();
+   fill(255);
+   textAlign(CENTER);
+   textSize(45);
+   text("One child policy", 0,-100);
+  pop(); //baby
   }
   pop();
 
@@ -32,7 +45,13 @@ function draw() {
   translate(80,90);
   scale(0.5);
   if (checkbox2.checked) {
-    drawPengy(); // baby
+    drawPengy();
+    push();
+   fill(255);
+   textAlign(LEFT);
+   textSize(45);
+   text("After one child policy", 90,20);
+  pop(); // baby
   }
   pop();
   //drawPenguin(x, y-50, 0, 0.5);
@@ -41,7 +60,11 @@ function draw() {
   push();
   translate(180,0);
   scale(0.8);
-  drawPengy(); //mom
+  drawPengy();
+
+
+
+ //mom
   pop();
 
 }
